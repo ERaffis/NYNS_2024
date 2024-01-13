@@ -119,7 +119,7 @@ MonoBehaviour:
   active: 1
   _FogIntensity:
     m_OverrideState: 1
-    m_Value: 0.515
+    m_Value: 0.54
   _EnergyLoss:
     m_OverrideState: 1
     m_Value: 1
@@ -128,7 +128,7 @@ MonoBehaviour:
     m_Value: 0
   _FogColor:
     m_OverrideState: 1
-    m_Value: {r: 0.23137255, g: 0.36862746, b: 0.34509805, a: 1}
+    m_Value: {r: 0.3529412, g: 0.54901963, b: 0.42352942, a: 1}
   _GradientStart:
     m_OverrideState: 0
     m_Value: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
     m_Value: 3
   _DistanceFogOffset:
     m_OverrideState: 1
-    m_Value: -5
+    m_Value: 15
   _SceneStart:
     m_OverrideState: 0
     m_Value: 10
@@ -173,7 +173,7 @@ MonoBehaviour:
     m_Value: 100
   _FogDensity:
     m_OverrideState: 1
-    m_Value: 0.0095
+    m_Value: 0.01
   _UseSkyboxHeightFog:
     m_OverrideState: 1
     m_Value: 1
@@ -185,19 +185,19 @@ MonoBehaviour:
     m_Value: 0
   _SkyboxFogIntensity:
     m_OverrideState: 1
-    m_Value: 0.212
+    m_Value: 0.075
   _SkyboxFill:
     m_OverrideState: 1
-    m_Value: 0.178
+    m_Value: 0.15
   _UseHeightFog:
     m_OverrideState: 1
     m_Value: 1
   _Height:
     m_OverrideState: 1
-    m_Value: 14.17
+    m_Value: 15
   _HeightDensity:
     m_OverrideState: 1
-    m_Value: 0.14
+    m_Value: 0.137
   _HeightFogType:
     m_OverrideState: 1
     m_Value: 2
