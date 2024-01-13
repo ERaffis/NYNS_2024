@@ -41,7 +41,8 @@ public class BoatController : MonoBehaviour
 
     private void Update()
     {
-        //AttachLevers();
+        if(Input.GetKeyDown(KeyCode.Space) && isPowered) PowerBoatOff();
+        if(Input.GetKeyDown(KeyCode.Space) && isPowered) PowerBoatOn();
         ChangeBothInput();
         ChangeLeftInput();
         ChangeRightInput();
@@ -61,7 +62,7 @@ public class BoatController : MonoBehaviour
         }
         
         BoatTrails();
-        ChangeParticleState();
+        //ChangeParticleState();
     }
 
     public void PowerBoatOn()
@@ -233,7 +234,7 @@ public class BoatController : MonoBehaviour
 
     private void ChangeParticleState()
     {
-        if (_boatSpeed != 0)
+        if (Mathf.Abs(leftWheelSpeed) != 0)
         {
             leftWheelFrontParticle.Play();  
             leftWheelBackParticle.Play();
@@ -242,6 +243,18 @@ public class BoatController : MonoBehaviour
         {
             leftWheelFrontParticle.Stop();
             leftWheelBackParticle.Stop();
+            
+        }
+        if (Mathf.Abs(rightWheelSpeed) != 0)
+        {
+            rightWheelFrontParticle.Play();  
+            rightWheelBackParticle.Play();
+        }
+        else
+        {
+            rightWheelFrontParticle.Stop();
+            rightWheelBackParticle.Stop();
+            
         }
     }
     
