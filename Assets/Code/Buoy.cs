@@ -9,6 +9,6 @@ public class Buoy : MonoBehaviour
     void Awake()
     {
         var waterPlane = GameObject.FindGameObjectWithTag("WaterPlane");
-        GetComponent<BuoyancyStatic>().water = waterPlane.transform;
+        GetComponent<Buoyancy>().water = waterPlane.transform;
     }
 }

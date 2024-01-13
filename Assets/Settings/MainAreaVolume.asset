@@ -164,7 +164,7 @@ MonoBehaviour:
     m_Value: 3
   _DistanceFogOffset:
     m_OverrideState: 1
-    m_Value: 15
+    m_Value: 0
   _SceneStart:
     m_OverrideState: 0
     m_Value: 10
@@ -185,10 +185,10 @@ MonoBehaviour:
     m_Value: 0
   _SkyboxFogIntensity:
     m_OverrideState: 1
-    m_Value: 0.075
+    m_Value: 0.219
   _SkyboxFill:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0.634
   _UseHeightFog:
     m_OverrideState: 1
     m_Value: 1
@@ -197,7 +197,7 @@ MonoBehaviour:
     m_Value: 15
   _HeightDensity:
     m_OverrideState: 1
-    m_Value: 0.137
+    m_Value: 0.057
   _HeightFogType:
     m_OverrideState: 1
     m_Value: 2

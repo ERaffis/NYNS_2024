@@ -119,7 +119,7 @@ Material:
     - _FoamNoiseAmount: 1
     - _FoamScale: 0.025
     - _FoamSharpness: 1
-    - _FoamSpeed: 0.1
+    - _FoamSpeed: 0.01
     - _FoamStretchX: 1
     - _FoamStretchY: 1
     - _GlossMapScale: 0
@@ -145,8 +145,8 @@ Material:
     - _Surface: 0
     - _WaterClearness: 0.008
     - _WaterDepth: 4.5
-    - _WaveAmplitude: 0.2
-    - _WaveDirection: 0.15
+    - _WaveAmplitude: 0.25
+    - _WaveDirection: 0
     - _WaveFrequency: 1
     - _WaveMode: 2
     - _WaveNoise: 1
