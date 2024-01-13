@@ -29,7 +29,6 @@ public class LeverWheelControl : MonoBehaviour
     public void ChangeWheelControls()
     {
         OnWheelChange?.Invoke(this, new OnWheelChangeEventArgs{sliderValue = (int)slider.value});
-        ChangeLeverSprite();
     }
     private void ChangeLeverSprite()
     {
