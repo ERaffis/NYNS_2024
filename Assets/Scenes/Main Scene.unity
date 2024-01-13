@@ -559,8 +559,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 0}
   m_HandleRect: {fileID: 1564783282}
   m_Direction: 2
-  m_MinValue: -2
-  m_MaxValue: 2
+  m_MinValue: -1
+  m_MaxValue: 3
   m_WholeNumbers: 1
   m_Value: 0
   m_OnValueChanged:
@@ -2766,8 +2766,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365344827}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.94057965, z: -0, w: 0.3395731}
-  m_LocalPosition: {x: -31.221209, y: 1.542, z: 22.94938}
+  m_LocalRotation: {x: -0.04737667, y: 0.93138033, z: -0.13122806, w: -0.33625203}
+  m_LocalPosition: {x: -29.304836, y: 1.692, z: 25.25752}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2915,9 +2915,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.01
-  far clip plane: 100
-  field of view: 65
+  near clip plane: 0.3
+  far clip plane: 75
+  field of view: 80
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -4936,7 +4936,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 0
+  m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 1763785119}
   m_Follow: {fileID: 1763785119}
@@ -4967,8 +4967,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545298703}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.078017905, y: 0.91541827, z: -0.21610087, w: -0.33048925}
-  m_LocalPosition: {x: -29.624231, y: 2.292, z: 24.872831}
+  m_LocalRotation: {x: -0.04737667, y: 0.93138033, z: -0.13122806, w: -0.33625203}
+  m_LocalPosition: {x: -29.304836, y: 1.692, z: 25.25752}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5804,6 +5804,85 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4069450729092487272, guid: d728cf9bece6447439340dcacc9a8d7c,
     type: 3}
   m_PrefabInstance: {fileID: 675682316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &687101568
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1429172781}
+    m_Modifications:
+    - target: {fileID: 989395106582006945, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_Name
+      value: Green Island 06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.40160936
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.3035889
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.0899963
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.957108
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99b65d14f6ccfb74996d29b52f902c3a, type: 3}
+--- !u!4 &687101569 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6917391771513335484, guid: 99b65d14f6ccfb74996d29b52f902c3a,
+    type: 3}
+  m_PrefabInstance: {fileID: 687101568}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &707733256
 PrefabInstance:
@@ -7821,7 +7900,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 0
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 1763785119}
   m_Follow: {fileID: 1763785119}
@@ -10246,7 +10325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1291443712
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11463,8 +11542,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 0}
   m_HandleRect: {fileID: 433627601}
   m_Direction: 2
-  m_MinValue: -2
-  m_MaxValue: 2
+  m_MinValue: -1
+  m_MaxValue: 3
   m_WholeNumbers: 1
   m_Value: 0
   m_OnValueChanged:
@@ -11585,6 +11664,7 @@ Transform:
   - {fileID: 935934357}
   - {fileID: 1770911540}
   - {fileID: 830164956}
+  - {fileID: 687101569}
   - {fileID: 433354274}
   - {fileID: 2140414416}
   - {fileID: 1038923848}
@@ -12170,7 +12250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd6043bde05a7fc4cba197d06915c1e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damping: {x: 0.5, y: 5, z: 0.5}
+  Damping: {x: 0.5, y: 0, z: 0.5}
   ShoulderOffset: {x: 0, y: 0.5, z: -1}
   VerticalArmLength: 0.5
   CameraSide: 0
@@ -12767,7 +12847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damping: {x: 0, y: 0, z: 0}
-  ShoulderOffset: {x: 0, y: 0.75, z: -2}
+  ShoulderOffset: {x: 0, y: 0.15, z: -2.5}
   VerticalArmLength: 1
   CameraSide: 1
   CameraDistance: 1.5
@@ -14441,10 +14521,25 @@ PrefabInstance:
       propertyPath: rightWheelUI
       value: 
       objectReference: {fileID: 34399970}
+    - target: {fileID: 462014056565314727, guid: a5e63967d5551d146bdda8d8a5cf2453,
+        type: 3}
+      propertyPath: speedModifier
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 586624629414574639, guid: a5e63967d5551d146bdda8d8a5cf2453,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
     - target: {fileID: 586624629414574639, guid: a5e63967d5551d146bdda8d8a5cf2453,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.437
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 586624629414574639, guid: a5e63967d5551d146bdda8d8a5cf2453,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.0000005
       objectReference: {fileID: 0}
     - target: {fileID: 3582905409359308815, guid: a5e63967d5551d146bdda8d8a5cf2453,
         type: 3}
