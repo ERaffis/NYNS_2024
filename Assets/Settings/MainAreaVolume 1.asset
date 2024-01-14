@@ -172,10 +172,10 @@ MonoBehaviour:
     m_Value: 0
   _HighQuality:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   _AntiFlicker:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   _FadeRamp:
     m_OverrideState: 1
     m_Value: {fileID: 0}
