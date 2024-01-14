@@ -8012,6 +8012,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   nearestCollider: {fileID: 0}
+  previousCollider: {fileID: 0}
 --- !u!1 &5826226245277719316
 GameObject:
   m_ObjectHideFlags: 0
@@ -13128,7 +13129,6 @@ Transform:
   - {fileID: 3582905409359308815}
   - {fileID: 9038640977805558822}
   - {fileID: 586624629414574639}
-  - {fileID: 9037541752146891313}
   - {fileID: 7974247943314016587}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13147,7 +13147,7 @@ MonoBehaviour:
   isPowered: 0
   leftWheelSpeed: 0
   rightWheelSpeed: 0
-  speedModifier: 1.5
+  speedModifier: 1.2
   rotationModifier: 0.05
   _boatSpeed: 0
   _desiredBoatSpeed: 0
@@ -13224,8 +13224,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.86162, y: 0.86, z: 2.5292957}
-  m_Center: {x: -0.000000081421355, y: 0.10000001, z: 0.40000004}
+  m_Size: {x: 0.540821, y: 0.63244736, z: 1.3102832}
+  m_Center: {x: -0.00000018489231, y: 0.17732814, z: 0.40000048}
 --- !u!1 &6707397682480683094
 GameObject:
   m_ObjectHideFlags: 0
@@ -14168,37 +14168,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7483360782215162155
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9037541752146891313}
-  m_Layer: 0
-  m_Name: MirrorCameraFocus
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &9037541752146891313
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7483360782215162155}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.58, z: -4.079}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6021720185201834211}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7535907059289228194
 GameObject:
   m_ObjectHideFlags: 0

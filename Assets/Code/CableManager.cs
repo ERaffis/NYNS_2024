@@ -110,7 +110,7 @@ public class CableManager : MonoBehaviour
             {
                 var connectionPort = PlaceBuoy();
                 
-                activeCable.lineRenderer.SetPosition(0,cablePlacementPoint.position - new Vector3(0,0,0));
+                activeCable.lineRenderer.SetPosition(0,cablePlacementPoint.position - new Vector3(0,-0.5f,0));
                 
                 //Sets the start connection point of the cable
                 activeCable.AddStartConnection(connectionPort);
@@ -169,7 +169,7 @@ public class CableManager : MonoBehaviour
             connectionPort.Connect(activeCable); 
             
             //Sets the position of the end cable point
-            activeCable.lineRenderer.SetPosition(activeCable.lineRenderer.positionCount-1,connectionPort.transform.position - new Vector3(0,1f,0));
+            activeCable.lineRenderer.SetPosition(activeCable.lineRenderer.positionCount-1,connectionPort.transform.position - new Vector3(0,0f,0));
             
             //Sets the power state of the cable
             activeCable.SetPowerState(connectionPort);
@@ -230,7 +230,7 @@ public class CableManager : MonoBehaviour
     public ConnectionPort PlaceBuoy()
     {
         var newBuoy = Instantiate(buoyPrefab, cableContainer.transform);
-        newBuoy.transform.position = cablePlacementPoint.position + new Vector3(0,0.5f,0f);
+        newBuoy.transform.position = cablePlacementPoint.position + new Vector3(0,0f,0f);
 
         return newBuoy.GetComponent<ConnectionPort>();
         
@@ -292,6 +292,7 @@ public class CableManager : MonoBehaviour
             activeCable = null;
                 
             GameObject startCable = Instantiate(cablePrefab, cableContainer.transform);
+            lenghtOfActiveCable = 0f;
             
             //Sets the activeCable (currently placing) has the PowerCable of the GameOject
             activeCable = startCable.GetComponent<PowerCable>();
