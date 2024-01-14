@@ -94,7 +94,7 @@ MonoBehaviour:
     zFailOperation: 0
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
-  m_DepthPrimingMode: 0
+  m_DepthPrimingMode: 1
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
@@ -113,8 +113,8 @@ MonoBehaviour:
   m_Active: 1
   settings:
     Event: 550
-    _UseCustomDepthTexture: 0
-    _UseFogOffsetTexture: 0
+    _UseCustomDepthTexture: 1
+    _UseFogOffsetTexture: 1
 --- !u!114 &8095940230482785818
 MonoBehaviour:
   m_ObjectHideFlags: 0
