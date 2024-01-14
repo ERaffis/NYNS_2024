@@ -1,35 +1,76 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CableConnector : MonoBehaviour
 {
-    public SphereCollider boatCheckSphere;
     public LayerMask myLayerMask;
+    public GameObject nearestCollider = null;
+    private float minSqrDistance = Mathf.Infinity;
 
-    public GameObject CheckCollision()
+    private void Update()
     {
-        GameObject nearestCollider = null;
-        float minSqrDistance = Mathf.Infinity;
+        Collider[] hitColliders = Physics.OverlapSphere(this.transform.position, 10f,myLayerMask);
         
-        Collider[] hitColliders = Physics.OverlapSphere(this.transform.position, boatCheckSphere.radius,myLayerMask);
+        if (hitColliders.Length == 0)
+        {
+            if (nearestCollider != null)
+            {
+                if(nearestCollider.TryGetComponent<ActivateMark>(out ActivateMark exclamationMark))
+                {
+                    exclamationMark.Activate(false);
+                    return;
+                }
+            }
+
+        }
         
         foreach (var t in hitColliders)
         {
             float sqrDistanceToCenter = (this.transform.position - t.transform.position).sqrMagnitude;
 
-            if (t.CompareTag("ConnexionTerre"))
-            {
-                return t.gameObject;
-            }
-            
             if (sqrDistanceToCenter < minSqrDistance)
             {
                 minSqrDistance = sqrDistanceToCenter;
+
+                if (nearestCollider !=null)
+                {
+                    if(nearestCollider.TryGetComponent<ActivateMark>(out ActivateMark exclamationMark))
+                    {
+                        exclamationMark.Activate(false);
+                    }
+                }
                 nearestCollider = t.gameObject;
+                
+                if(nearestCollider.TryGetComponent<ActivateMark>(out ActivateMark exclamationMark1))
+                {
+                    exclamationMark1.Activate(true);
+                }
+            }
+            
+            if (t.gameObject.CompareTag("ConnexionTerre"))
+            {
+                if (nearestCollider != null)
+                {
+                    if(nearestCollider.TryGetComponent<ActivateMark>(out ActivateMark exclamationMark))
+                    {
+                        exclamationMark.Activate(false);
+                    }
+                }
+                
+                nearestCollider = t.gameObject;
+                if(nearestCollider.TryGetComponent<ActivateMark>(out ActivateMark exclamationMark1))
+                {
+                    exclamationMark1.Activate(true);
+                }
             }
         }
+        
+    }   
 
-        return nearestCollider;
+    public GameObject CheckCollision()
+    {
+        return nearestCollider; 
     }
 }

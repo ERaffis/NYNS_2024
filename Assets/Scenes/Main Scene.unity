@@ -14521,46 +14521,11 @@ PrefabInstance:
       propertyPath: rightWheelUI
       value: 
       objectReference: {fileID: 34399970}
-    - target: {fileID: 462014056565314727, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: speedModifier
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 586624629414574639, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.00000047683716
-      objectReference: {fileID: 0}
-    - target: {fileID: 586624629414574639, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 586624629414574639, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: 3582905409359308815, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.437
-      objectReference: {fileID: 0}
-    - target: {fileID: 3765169831145855184, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.705
-      objectReference: {fileID: 0}
     - target: {fileID: 4538156608623575142, guid: a5e63967d5551d146bdda8d8a5cf2453,
         type: 3}
       propertyPath: water
       value: 
       objectReference: {fileID: 1387302587}
-    - target: {fileID: 5701753170426422585, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.437
-      objectReference: {fileID: 0}
     - target: {fileID: 6021720185201834211, guid: a5e63967d5551d146bdda8d8a5cf2453,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14615,31 +14580,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerBoat
-      objectReference: {fileID: 0}
-    - target: {fileID: 7908158361857019489, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.131
-      objectReference: {fileID: 0}
-    - target: {fileID: 9037541752146891313, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9037541752146891313, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.474
-      objectReference: {fileID: 0}
-    - target: {fileID: 9037541752146891313, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.079
-      objectReference: {fileID: 0}
-    - target: {fileID: 9038640977805558822, guid: a5e63967d5551d146bdda8d8a5cf2453,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.437
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

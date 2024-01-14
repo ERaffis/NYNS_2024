@@ -90,12 +90,10 @@ public class CableManager : MonoBehaviour
             
             //Checks for connectors close by to attach the first point of the cable
             var closetConnector = cableConnector.CheckCollision();
-            
             //If it finds a connector (either a buoy or a land connector)
             if (closetConnector != null)
             {
                 var connectionPort = closetConnector.transform.parent.gameObject.GetComponent<ConnectionPort>();
-                
                 //Sets the start connection point of the cable
                 activeCable.AddStartConnection(connectionPort);
                 
@@ -112,7 +110,7 @@ public class CableManager : MonoBehaviour
             {
                 var connectionPort = PlaceBuoy();
                 
-                activeCable.lineRenderer.SetPosition(0,cablePlacementPoint.position - new Vector3(0,0.5f,0));
+                activeCable.lineRenderer.SetPosition(0,cablePlacementPoint.position - new Vector3(0,0,0));
                 
                 //Sets the start connection point of the cable
                 activeCable.AddStartConnection(connectionPort);
@@ -143,12 +141,10 @@ public class CableManager : MonoBehaviour
         
         //Checks for connectors close by to attach the end point of the cable
         var closetConnector = cableConnector.CheckCollision();
-            
         //If it finds a connector (either a buoy or a land connector)
         if (closetConnector != null && closetConnector.transform.parent.gameObject != activeCable.firstConnection.gameObject)
         {
             var connectionPort = closetConnector.transform.parent.gameObject.GetComponent<ConnectionPort>();
-                
             //Sets the end connection point of the cable
             activeCable.AddEndConnection(connectionPort);
             
@@ -257,17 +253,62 @@ public class CableManager : MonoBehaviour
         {
             if (numberOfBuoy > 0)
             {
-                StopCable();
-                StartNewCable();
+                Buoy();
             }
             else
             {
                 DestroyCable();
             }
             
+            
+            timer = 0;
+            lenghtOfActiveCable = 0;
         }
     }
 
+    public void Buoy()
+    {
+        numberOfBuoy--;
+        var connectionPort = PlaceBuoy();
+        
+        if (activeCable != null)
+        {
+            
+            //Sets the start connection point of the cable
+            activeCable.AddEndConnection(connectionPort);
+                
+            //Adds the powercable to the connector
+            connectionPort.Connect(activeCable); 
+            
+            //Sets the position of the end cable point
+            activeCable.lineRenderer.SetPosition(activeCable.lineRenderer.positionCount-1,connectionPort.transform.position - new Vector3(0,1f,0));
+            
+            //Sets the power state of the cable
+            activeCable.SetPowerState(connectionPort);
+                
+            activeCable.lineRenderer.Simplify(0.25f);
+        
+            allCables.Add(activeCable);
+            activeCable = null;
+                
+            GameObject startCable = Instantiate(cablePrefab, cableContainer.transform);
+            
+            //Sets the activeCable (currently placing) has the PowerCable of the GameOject
+            activeCable = startCable.GetComponent<PowerCable>();
+                
+            activeCable.lineRenderer.SetPosition(0,cablePlacementPoint.position - new Vector3(0,0,0));
+                
+            //Sets the start connection point of the cable
+            activeCable.AddStartConnection(connectionPort);
+                
+            //Adds the powercable to the connector
+            connectionPort.Connect(activeCable);
+                
+            //Sets the power state of the cable
+            activeCable.SetPowerState(connectionPort);
+        }
+    }
+    
     public void DestroyCable()
     {
         if (activeCable != null)

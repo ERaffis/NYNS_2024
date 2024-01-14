@@ -19,12 +19,12 @@ MonoBehaviour:
     AfterOpaque: 0
     Source: 0
     NormalSamples: 0
-    Intensity: 0.5
-    DirectLightingStrength: 0.25
-    Radius: 0.25
+    Intensity: 1.6
+    DirectLightingStrength: 0.915
+    Radius: 0.15
     Samples: 2
     BlurQuality: 0
-    Falloff: 100
+    Falloff: 65.98
     SampleCount: -1
   m_BlueNoise256Textures:
   - {fileID: 2800000, guid: 36f118343fc974119bee3d09e2111500, type: 3}
@@ -56,7 +56,7 @@ MonoBehaviour:
   - {fileID: 8095940230482785818}
   - {fileID: 316850542489922341}
   m_RendererFeatureMap: adc0de57c6d2eee51a76b8d8be8e5a70256b00c0e3ad6504
-  m_UseNativeRenderPass: 0
+  m_UseNativeRenderPass: 1
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
