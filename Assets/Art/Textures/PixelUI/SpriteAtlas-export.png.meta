@@ -127,11 +127,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 680
-        width: 64
-        height: 56
+        y: 3399
+        width: 322
+        height: 281
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: SpriteAtlas-export_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 680
-        width: 64
-        height: 56
+        x: 399
+        y: 3399
+        width: 322
+        height: 281
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: SpriteAtlas-export_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 712
-        width: 64
-        height: 24
+        x: 798
+        y: 3558
+        width: 323
+        height: 122
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: SpriteAtlas-export_5
       rect:
         serializedVersion: 2
-        x: 12
-        y: 476
-        width: 392
-        height: 184
+        x: 59
+        y: 2379
+        width: 1963
+        height: 922
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,11 +211,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
-        width: 144
-        height: 144
+        y: 1599
+        width: 721
+        height: 723
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: SpriteAtlas-export_7
       rect:
         serializedVersion: 2
-        x: 157
-        y: 392
-        width: 166
-        height: 75
+        x: 784
+        y: 1959
+        width: 832
+        height: 377
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,11 +253,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 243
-        width: 136
-        height: 61
+        y: 1213
+        width: 681
+        height: 309
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: SpriteAtlas-export_9
       rect:
         serializedVersion: 2
-        x: 160
-        y: 243
-        width: 136
-        height: 61
+        x: 798
+        y: 1213
+        width: 683
+        height: 309
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,12 +294,12 @@ TextureImporter:
       name: SpriteAtlas-export_10
       rect:
         serializedVersion: 2
-        x: 320
-        y: 243
-        width: 136
-        height: 60
+        x: 1599
+        y: 1213
+        width: 683
+        height: 309
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -316,11 +316,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 163
-        width: 136
-        height: 61
+        y: 814
+        width: 681
+        height: 307
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: SpriteAtlas-export_12
       rect:
         serializedVersion: 2
-        x: 160
-        y: 163
-        width: 136
-        height: 61
+        x: 798
+        y: 814
+        width: 683
+        height: 307
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: SpriteAtlas-export_13
       rect:
         serializedVersion: 2
-        x: 320
-        y: 163
-        width: 136
-        height: 60
+        x: 1599
+        y: 814
+        width: 683
+        height: 309
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -379,11 +379,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 84
-        width: 56
-        height: 60
+        y: 419
+        width: 282
+        height: 302
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,12 +399,12 @@ TextureImporter:
       name: SpriteAtlas-export_15
       rect:
         serializedVersion: 2
-        x: 80
-        y: 84
-        width: 56
-        height: 60
+        x: 399
+        y: 419
+        width: 282
+        height: 302
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,12 +420,12 @@ TextureImporter:
       name: SpriteAtlas-export_16
       rect:
         serializedVersion: 2
-        x: 160
-        y: 84
-        width: 56
-        height: 60
+        x: 798
+        y: 419
+        width: 284
+        height: 302
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -442,11 +442,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
-        width: 56
-        height: 60
+        y: 18
+        width: 282
+        height: 304
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: SpriteAtlas-export_18
       rect:
         serializedVersion: 2
-        x: 80
-        y: 4
-        width: 56
-        height: 60
+        x: 399
+        y: 18
+        width: 282
+        height: 304
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -483,12 +483,12 @@ TextureImporter:
       name: SpriteAtlas-export_19
       rect:
         serializedVersion: 2
-        x: 160
-        y: 4
-        width: 56
-        height: 60
+        x: 798
+        y: 18
+        width: 284
+        height: 302
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
